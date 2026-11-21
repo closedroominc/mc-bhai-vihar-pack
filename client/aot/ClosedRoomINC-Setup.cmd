@@ -196,7 +196,7 @@ function Invoke-Setup {
     try {
         $sync = (Invoke-WebRequest -Uri "$Api/sync.txt" -UseBasicParsing -TimeoutSec 15 -Headers @{ 'X-MCM-Agent' = 'setup' }).Content
     } catch {
-        Say 'Could not reach the server. Make sure Tailscale is connected, then run this again.' Red
+        Say 'Could not reach the server. Check your Internet connection, then run this again.' Red
         Say $_.Exception.Message DarkGray
         return
     }
