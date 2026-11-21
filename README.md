@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/closedroominc/.github/main/profile/assets/bhai-vihar-icon.png" width="96" alt="Closed Room Minecraft project icon">
+
 # Bhai Vihar
 
 Minecraft Java · Fabric 26.3
